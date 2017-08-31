@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backgroundcolor</key>
+	<array>
+		<real>1</real>
+		<real>0.5</real>
+		<real>0.0</real>
+	</array>
+	<key>iconid</key>
+	<string>6267E7B7-776F-46A1-8AE5-FA1DB00B7346</string>
+	<key>iconisuserspecified</key>
+	<true/>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Play" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>43862795-5F9F-4F55-B8F3-814A70A4FD2E</string>
+			<key>buttonlabel</key>
+			<string>Play</string>
+			<key>itemuid</key>
+			<string>4C065BD0-F424-4647-BF43-8CFF9A4189E4</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Pause" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>EDA6F669-D169-4697-BA81-8E8B6BDBFC53</string>
+			<key>buttonlabel</key>
+			<string>Pause</string>
+			<key>itemuid</key>
+			<string>42071A48-CCF1-4B29-AE57-D7BE8859388C</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Previous" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>1555228D-83B1-49D5-BBB6-FE90140BC167</string>
+			<key>buttonlabel</key>
+			<string>Previous</string>
+			<key>itemuid</key>
+			<string>D7B79FAB-1D94-44E7-92FB-043F5A107A9E</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Next" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>32A4FA3F-0E4E-4CDB-A02D-C0A823730B88</string>
+			<key>buttonlabel</key>
+			<string>Next</string>
+			<key>itemuid</key>
+			<string>87B98E2C-BA91-4017-BE53-DA9AF51CC240</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Increase Volume" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>F68A218A-E943-4CD3-AF84-05F22A972C27</string>
+			<key>buttonlabel</key>
+			<string>Volume Up</string>
+			<key>itemuid</key>
+			<string>F1D3FD97-B128-4606-9EDB-9D3E007D3AC7</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Decrease Volume" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>6C7BE201-3A66-495C-BE10-40AA1ED44C8C</string>
+			<key>buttonlabel</key>
+			<string>Volume Down</string>
+			<key>itemuid</key>
+			<string>2D04B3B6-FCD6-4055-ABAB-835D6E3556CA</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Like" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>D20821B6-1FE3-4090-AD7F-CC79BCD3122E</string>
+			<key>buttonlabel</key>
+			<string>Like</string>
+			<key>itemuid</key>
+			<string>89E00A6C-78E7-412F-9351-484F0C0DC8BC</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script()
+  tell application "System Events" to tell process "NeteaseMusic"		click menu item "Dislike" of menu 1 of menu bar item "Controls" of menu bar 1	end tell
+end alfred_script</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.runapplescript</string>
+			<key>buttoniconid</key>
+			<string>8AF6618A-473C-422A-B764-6EB61E6745AB</string>
+			<key>buttonlabel</key>
+			<string>Dislike</string>
+			<key>itemuid</key>
+			<string>F782D18C-EF36-4377-B0CB-25B732788936</string>
+		</dict>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+	</array>
+	<key>subtitle</key>
+	<string></string>
+	<key>title</key>
+	<string>Netease Music Controls</string>
+</dict>
+</plist>
