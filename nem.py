@@ -12,7 +12,7 @@ items = [['toggle', 'play/pause current song'],
         ['like', 'like/dislike current song'],
         ['togglelyrics', 'display/hide the lyrics']]
 
-query = sys.argv[1].lower()
+query = sys.argv[1].lower().strip()
 
 feedback = alfred.Feedback()
 
